@@ -1,0 +1,25 @@
+body {margin: 0;}
+
+.Header {
+    background: #292929;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+
+
+    text-align: center;
+}
+
+.Header ti {
+    color: #BABABA;
+}
+
+.Header tc {
+    color: #393939;
+}
+
+.Header tc:link {
+    color: aliceblue;
+}
