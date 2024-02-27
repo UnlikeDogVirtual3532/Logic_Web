@@ -14,16 +14,19 @@ body {margin: 0;font-family: Montserrat;}
     width: 100%;
     margin: 0;
     overflow: hidden;
-
-
     text-align: center;
+    height: 60;
 }
 
-.Header ti {
+.Header h1 {
     color: #BABABA;
+    display: inline;
+    height: 60px;
+    font-size: 60px;
 }
 
 .Header tc {
     color: #393939;
     float: right;
+    top: 0;
 }
