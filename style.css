@@ -29,4 +29,19 @@ body {margin: 0;font-family: Montserrat;}
     color: #393939;
     float: right;
     top: 0;
+    z-index: 2;
+}
+
+.Board {
+    width: 100%;
+    height: 100vh;
+}
+
+.gate {
+    margin: auto;
+    width: 10%;
+}
+
+.gate img {
+    position: relative;
 }
