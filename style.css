@@ -11,25 +11,35 @@ body {margin: 0;font-family: Montserrat;}
     background: #292929;
     position: sticky;
     top: 0;
-    width: 100%;
-    margin: 0;
+    width: 80%;
+    margin: auto;
     overflow: hidden;
     text-align: center;
-    height: 60;
+    border-radius: 5vh;
+    z-index: 99;
 }
 
 .Header h1 {
     color: #BABABA;
     display: inline;
-    height: 60px;
-    font-size: 60px;
+    font-size: 10vh;
 }
 
-.Header tc {
+.Footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    border-radius: 5vh;
+    z-index: 99;
+}
+
+.Footer tc {
     color: #393939;
     float: right;
-    top: 0;
-    z-index: 2;
+    padding: 2vh;
+    width: 5vh;
+    height: 5vh;
 }
 
 .Board {
@@ -42,6 +52,19 @@ body {margin: 0;font-family: Montserrat;}
     width: 10%;
 }
 
-.gate img {
+.input {
+    float: left;
     position: relative;
+    left: 8vh;
+}
+
+.gate img {
+    width: 15vh;
+    height: auto;
+}
+
+.input img {
+    position: relative;
+    width: 15vh;
+    height: auto;
 }
