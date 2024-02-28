@@ -5,6 +5,7 @@
 <link rel="icon" type="image/png"  href="./resources/img/icon.png">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="main.js"/>
 <link rel="stylesheet" type="text/css" href="style.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,24 +20,19 @@
   <tc><a href="credits.html"><img border="0" alt="sidebar" src="./resources/svg/sidebar.svg"></a></tc>
 </div>
 
+
 <div class="Board">
-  <div id="row1">
-  <div class="input"><img border="0" src="resources/svg/toggle-off.svg"/></div>
-  <div class="gate"><img border="0" src="resources/svg/logic-gate-and.svg"/></div>
-  </div>
-
-  <div id="row2">
-  <div class="input"><img border="0" src="resources/svg/sensor-light.svg"/></div>
-  <div class="gate"><img border="0" src="resources/svg/logic-gate-or.svg"/></div>
-  </div>
-
-  <div id="row3">
-    <div class="input"><img border="0" src="resources/svg/sensor-temperature.svg"/></div>
-  <div class="gate"><img border="0" src="resources/svg/logic-gate-not.svg"/></div>
-  </div>
-
-  <div id="row3">
-    <div class="input"><img border="0" src="resources/svg/push-button.svg"/></div>
+  <svg width="500" height="500"><line x1="50" y1="50" x2="350" y2="350" stroke="black"/></svg>
+  <div class="content">
+    <div class="input">
+      <img border="0" alt="Slide Switch" src="resources/svg/toggle-off.svg">
+    </div>
+    <div class="gate">
+      <img border="0" alt="AND Gate" src="resources/svg/logic-gate-and.svg">
+    </div>
+    <div class="output">
+      <img border="0" alt="Buzzer" src="resources/svg/sensor-temperature.svg">
+    </div>
   </div>
 </div>
 
